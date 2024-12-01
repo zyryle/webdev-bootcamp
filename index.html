@@ -104,64 +104,28 @@
 			<div class="pet-filter">
 				<p>
 					Show me:
-					<button>All Pets</button>
-					<button>Only Dogs</button>
-					<button>Only Cats</button>
+					<button class="active" data-filter="all">All Pets</button>
+					<button data-filter="dog">Only Dogs</button>
+					<button data-filter="cat">Only Cats</button>
 				</p>
 			</div>
 
-			<div class="list-of-pets">
-				<div class="pet-card">
-					<div class="pet-card-text">
-						<h3>Snowie</h3>
-						<p class="pet-description">Snowie is a sweet and lovable 3 year old ball of fluff. He loves carrots,
-							celery, and playing fetch.
-						</p>
-						<p class="pet-age">2 Years Old</p>
-					</div>
-					<div class="pet-card-photo">
-						<img src="/imgs/dog1.jpg" alt="A White Fluffy Dog">
-					</div>
-				</div><!-- End of pet card -->
-				<div class="pet-card">
-					<div class="pet-card-text">
-						<h3>Lorie</h3>
-						<p class="pet-description">Lorie is the most talkative cat we&rsquo;ve ever come across. Constant
-							meowing, chirping and purring!
-						</p>
-						<p class="pet-age">1 year old</p>
-					</div>
-					<div class="pet-card-photo">
-						<img src="/imgs/cat1.jpg" alt="A Cat Looking Directly at the Camera">
-					</div>
-				</div><!-- End of pet card -->
-				<div class="pet-card">
-					<div class="pet-card-text">
-						<h3>Beckie</h3>
-						<p class="pet-description">Beckie is a very talkative and sweet pup. She loves beets, plums, cuddles and
-							jumping over low fences.
-						</p>
-						<p class="pet-age">Less than a year old</p>
-					</div>
-					<div class="pet-card-photo">
-						<img src="/imgs/dog2.jpg" alt="A Brown Fluffy Dog">
-					</div>
-				</div><!-- End of pet card -->
+			<div class="list-of-pets"></div>
 
+			<template id="pet-card-template">
 				<div class="pet-card">
 					<div class="pet-card-text">
-						<h3>Lilie</h3>
-						<p class="pet-description">Lilie has the loudest and most relaxing purr that&rsquo;s come through our
-							center. Come hear it yourself.
+						<h3></h3>
+						<p class="pet-description">
 						</p>
-						<p class="pet-age">4 years old</p>
+						<p class="pet-age"></p>
 					</div>
 					<div class="pet-card-photo">
-						<img src="/imgs/cat2.jpg" alt="A Fluffy Brown Cat">
+						<img src="">
 					</div>
-				</div><!-- End of pet card -->
+				</div>
+			</template>
 
-			</div>
 		</div>
 	</div>
 
